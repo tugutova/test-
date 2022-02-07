@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test task</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="outerContainer">
+            <div contenteditable class="container">
+                <table id="table1">
+                    <th>X</th>
+                    <th>Y</th>       
+                </table>
+            </div>
+            <input type="button" value="Add" class="buttonAdd" onclick="addRow('table1', ['',''])"/>
+        </div>
+        <div class="outerContainer">
+            <div contenteditable class="container">
+                <table id="table2">
+                    <th>X</th>
+                    <th>Y</th>        
+                </table>
+            </div>
+            <input type="button" value="Add" class="buttonAdd" onclick="addRow('table2', ['',''])"/>
+        </div>
+        <div class="outerContainer">
+            <div contenteditable class="container">
+                <table id="table3">
+                    <th>X</th>
+                    <th>Y</th>
+                </table>
+            </div>
+            <input type="button" value="Calculate" class="buttonCalc" onclick="calculate()"/>
+        </div>
+        <div style="float: left">
+            <canvas width="500" height="500" id="canvas1" class="canvas"></canvas>
+            <canvas width="500" height="500" id="canvas2" class="canvas"></canvas>
+            <canvas width="500" height="500" id="canvas3" class="canvas"></canvas>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

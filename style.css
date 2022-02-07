@@ -1,0 +1,19 @@
+.canvas {
+    border: 1px solid black;
+}
+.outerContainer {
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttonAdd {
+    width: 432px;
+}
+.buttonCalc {
+    width: 375px;
+}
